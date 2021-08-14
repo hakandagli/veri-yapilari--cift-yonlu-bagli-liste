@@ -1,8 +1,6 @@
 # Çift Yönlü Bağli Liste Projesi
 
 ### Ders: Veri Yapilari
-### Kullanilan Diller:
-Javascript, HTML, CSS
 
 ### Proje Tanıtım
 Bağlı liste nasıl oluşturulur ? Bağlı liste arasına nasıl eleman eklenir ? Sorularına yanıt bulmak.
