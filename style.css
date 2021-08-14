@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#262c3a;
+}
+
+#hakan-container{
+    background-image: url(rickReyiz.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:left;
+}
+.container{
+    padding-left:20px;
+}
+
+.aciklama{
+    color:white;
+}
+.title{
+    color:white;
+    font-size:40px;
+    padding-left:30px;
+}
+.head{
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    background-color: #B4EEFC;
+    margin-left:150px;
+}
+.ok{
+    font-size:30px;
+}
+.kutu-container{
+    display:flex;
+    flex-direction: row;
+}
+.kutulars{
+    display:flex;
+    flex-direction: row;
+    padding-left:80px;
+}
+.kutu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    width:55px;
+    height: 55px;
+    font-size:35px;
+    margin-right:80px;
+}
+.ilerilers{
+    display: flex;
+    flex-direction: row;
+    padding-left:140px;
+    position: relative;
+    bottom:25px;
+}
+.next{
+   height:20px;
+   min-width: 80px;
+   background-color: blue;
+   margin-left:55px;
+   text-align: center;
+   color:white;
+   font-size:20px;
+}
+.gerilers{
+    display: flex;
+    flex-direction: row;
+    padding-left:60px;
+    position: relative;
+    top:25px;
+}
+.prev{
+    height:20px;
+    min-width: 80px;
+    background-color: green;
+    margin-right:55px;
+    text-align: center;
+    color:white;
+    font-size:20px;
+}
+.iter-container{
+     display: flex;
+     flex-direction: row;
+ }
+.iterlers{
+    display:flex;
+    flex-direction: row;
+    padding-left:20px;
+}
+.iter{
+    width: 25px;
+    height: 60px;
+    background-color:orange;
+    text-align:center;
+}
+.bosluk{
+    width: 135px;
+    height:40px;
+}
+
+.temp{
+    width:30px;
+    height:60px;
+    text-align: center;
+    background-color: #98f1dd;
+}
+
+.null{
+    height:55px;
+    width:60px;
+    border-radius: 20px;
+    background-color: yellow;
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input1{
+    padding:10px;
+    width: 80px;
+    font-size:20px;
+}
+.input2{
+    padding:10px;
+    width: 200px;
+    font-size:20px;
+}
+
+.btn{
+    padding:10px;
+    cursor:pointer;
+    font-size:20px;
+    color:#262c3a;
+    transition: all .3s ease;
+    width: 100px;
+    border:3px solid #262c3a;
+}
+
+.btn-2{
+    display: inline-block;
+    padding:10px 1px;
+    font-size:15px;
+    background-color: red;
+    color:white;
+    border:2px solid white;
+    text-decoration: none;
+    width:80px;
+    border-radius: 30%;
+    text-align:center;
+    margin-left:40px;
+    transition: all .3s ease;
+}
+
+.btn-2:hover{
+    color:red;
+    background-color:white;
+    border-radius: 50%;
+    border:2px solid red;
+}
+
+.btn:hover{
+    background-color: #262c3a;
+    color:white;
+    border:3px solid white;
+}
+
+#kumanda{
+    padding:20px;
+}
+
+#container-2{
+    padding-bottom:100px;
+}
